@@ -1,0 +1,38 @@
+Miniespecificacion
+
+1. Inicio
+2. valorLibro, d[0, n]
+4. edad, i[0, n]
+5. descuento, d[0, n]
+6. porcentaje_1, d[0, n]
+7. porcentaje_2, d[0, n]
+8. porecntaje_3, d[0, n]
+5. subtotal, d[0, n]
+6. valorTotal, d[0, n]
+
+10. porcentaje 1 <-- 5
+11. porcentaje 2 <-- 12
+12. porcentaje 3 <-- 20
+
+13. << "Ingrese su edad: "
+14. >> edad
+
+15. << "Ingrese el valor del libro: "
+16. >> valorPlato
+
+17. subtotal <-- valorLibro
+
+18. Si edad > 0 AND edad < 20
+19. 	descuento <-- (porcentaje_1 * subtotal)/100
+20. 	valorTotal <-- subtotal - descuento
+22.   De lo contrario
+23. 	Si edad >_ 20 AND edad < 40
+24. 		descuento <-- (porcentaje_2 * subtotal)/100
+25. 		valorTotal <-- subtotal - descuento
+27.   De lo contrario
+28. 	Si edad >= 40
+29. 		descuento <-- (porcentaje_3 * subtotal)/100
+30. 		valorTotal <-- subtotal - descuento
+35.    Fin Si     
+22. << "El subtotal es de: " + subtotal + " y el total a pagar es de: " + valorTotal
+37. Fin
